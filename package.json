@@ -1,0 +1,17 @@
+{
+  "name": "greenbean_v2",
+  "version": "1.0.0",
+  "description": "GreenBean discord bot v2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elizabeth Lee",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0"
+  }
+}
