@@ -9,7 +9,7 @@ client.once('ready', () => {
 });
 
 client.commands = new Collection();
-const commandFiles = ['./commands/help.js'];
+const commandFiles = ['./commands/help.js', './commands/cat_test.js'];
 for (const file of commandFiles) {
   const command = require(`./${file}`);
   client.commands.set(command.data.name, command);

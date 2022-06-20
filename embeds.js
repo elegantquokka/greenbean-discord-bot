@@ -7,9 +7,9 @@ const errorEmbed = new MessageEmbed()
 const helpEmbed = new MessageEmbed()
 .setColor('#ff7f50')
 .setTitle('Help')
-.setDescription('Hi, I’m GreenBean :seedling: we hope you enjoy!')
+.setDescription('Hi, I’m GreenBean :seedling: we hope you enjoy be(an)ing sustainable!')
 .addFields(
-  { name: '/carboncalc', value: '> calculates the carbon emissions produced by an activity. \n use ``/carboncalc [activity]``.' },
+  { name: '/carboncalc', value: '> calculates the carbon emissions produced by an activity.' },
 )
 .setFooter({ text: 'Feel free to DM ELeegance#2207 with questions or feedback :)' });
 
